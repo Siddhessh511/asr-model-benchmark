@@ -5,7 +5,7 @@ This document presents a rigorous architectural, algorithmic, and operational an
 2. **Faster-Whisper (`base`)**
 3. **Wav2Vec 2.0 (`facebook/wav2vec2-base-960h`)**
 
-All technical claims cite authoritative primary sources cataloged in [references.md](file:///c:/Users/siddh/Desktop/asr_model_benchmark/research/references.md). This research strictly separates published theoretical and empirical claims from our local benchmark measurements.
+All technical claims cite authoritative primary sources cataloged in [references.md](./references.md). This research strictly separates published theoretical and empirical claims from our local benchmark measurements.
 
 ---
 

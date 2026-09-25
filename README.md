@@ -3,24 +3,9 @@
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Framework: PyTorch](https://img.shields.io/badge/Framework-PyTorch%20%7C%20CTranslate2-orange.svg)](https://pytorch.org/)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Siddhessh511/asr-model-benchmark/blob/main/notebooks/asr_benchmark_demo.ipynb)
 
 An empirical benchmarking study and evaluation pipeline assessing three Automatic Speech Recognition (ASR) systems under clean and controlled noisy conditions (10 dB SNR). This project analyzes trade-offs across word error rate (WER), inference latency, real-time factor (RTF), memory consumption, deployment complexity, and acoustic noise robustness.
-
----
-
-## Model Comparison
-
-The matrix below summarizes the empirical benchmark measurements obtained on the fixed evaluation subset under identical testing conditions.
-
-*Note on Evaluation Metric: Word Error Rate is defined as $\text{WER} = \frac{S + D + I}{N_{\text{ref}}}$. **Lower WER indicates fewer word-level recognition errors.** Because the evaluation dataset contains Hindi speech with Devanagari ground truth, while off-the-shelf checkpoints output Romanized text or Urdu script (Whisper) or English uppercase characters (Wav2Vec2), baseline word substitution is near 1.0; values exceeding 1.0 reflect insertion tokens ($I > 0$).*
-
-*Note on Hardware: Peak GPU memory is 0.0 MB across all models because the benchmark was executed on host CPU (Intel 8 physical cores, 12 logical processors, 16 GB RAM) with PyTorch CPU runtime.*
-
-| Model | Recognition Accuracy (WER) | Latency | Resource Usage | Ease of Deployment | Suitability for Noisy Audio |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Faster-Whisper (`base`)** | **Clean WER:** 1.0857<br>**Noisy WER:** 1.1057<br>*(Lower is better)* | **Clean Avg:** 2.336 s (`RTF: 0.569`)<br>**Noisy Avg:** 3.502 s (`RTF: 0.842`) | **CPU Memory:** 619.7 MB<br>**GPU Peak:** 0.0 MB *(CPU mode)* | **High:** CTranslate2 C++ inference engine with native INT8 CPU quantization, self-contained binary execution without PyTorch runtime dependency, minimal system overhead, compact disk footprint (~145 MB), and integrated PyAV decoding. | **High Robustness:** Measured Clean WER: 1.0857 \| Noisy WER: 1.1057 (WER degradation = **+0.0200**). High noise robustness attributable to 80-channel log-Mel spectrogram front-end and cross-attention sequence conditioning (+1.8% relative degradation under 10 dB SNR). |
-| **OpenAI Whisper (`base`)** | **Clean WER:** 1.1018<br>**Noisy WER:** 1.1251<br>*(Lower is better)* | **Clean Avg:** 4.416 s (`RTF: 1.149`)<br>**Noisy Avg:** 4.775 s (`RTF: 1.131`) | **CPU Memory:** 840.1 MB<br>**GPU Peak:** 0.0 MB *(CPU mode)* | **Moderate:** Standard PyTorch dependency stack requiring external FFmpeg binary on host system PATH. Lacks native INT8 CPU quantization in official release; runs in FP32 on CPU, incurring higher memory overhead and longer setup latency. | **High Robustness:** Measured Clean WER: 1.1018 \| Noisy WER: 1.1251 (WER degradation = **+0.0233**). Strong noise resilience via Mel-filterbank acoustic compression and autoregressive decoding (+2.1% relative degradation under 10 dB SNR). |
-| **Wav2Vec2 (`base-960h`)** | **Clean WER:** 1.0748<br>**Noisy WER:** 1.1847<br>*(Lower is better)* | **Clean Avg:** 0.376 s (`RTF: 0.083`)<br>**Noisy Avg:** 0.368 s (`RTF: 0.081`) | **CPU Memory:** 962.9 MB<br>**GPU Peak:** 0.0 MB *(CPU mode)* | **Moderate:** Standard Hugging Face Transformers + PyTorch stack. Acoustic-only model requiring custom feature extractor pipeline and external CTC beam-search/language-model integrations for domain vocabulary adaptation; checkpoint size is ~378 MB. | **Vulnerable to Noise:** Measured Clean WER: 1.0748 \| Noisy WER: 1.1847 (WER degradation = **+0.1099**). Significant noise degradation (+10.2% relative) under 10 dB SNR. Raw waveform temporal CNN encoder lacks autoregressive language model smoothing, causing acoustic feature distortion to trigger CTC frame misclassifications. |
 
 ---
 
@@ -33,7 +18,7 @@ This project delivers a comparative evaluation of three leading ASR paradigms:
 2. **Faster-Whisper (`base`)**: An optimized inference implementation of Whisper powered by the CTranslate2 C++ engine with INT8 quantization.
 3. **Wav2Vec 2.0 (`facebook/wav2vec2-base-960h`)**: A self-supervised acoustic representation model with a Connectionist Temporal Classification (CTC) linear projection head.
 
-The primary goal is to evaluate the trade-offs among recognition accuracy, latency, computational efficiency, deployment complexity, and resilience to acoustic noise.
+The primary goal is to study the trade-offs among recognition accuracy, latency, computational efficiency, deployment complexity, and resilience to acoustic noise under identical, reproducible evaluation conditions.
 
 ---
 
@@ -82,7 +67,7 @@ The benchmark is conducted on the official **Mozilla Common Voice (Hindi - `hi`)
 - **License:** Creative Commons CC0 (Public Domain Dedication).
 - **Audio Format:** MPEG-1 Audio Layer III (`.mp3`), 48 kHz / 32 kHz, Mono, 64 kbps.
 - **Transcripts:** Human-validated Devanagari script text (`sentence` column).
-- **Evaluation Split:** Held-out benchmark test partition ([data/raw/my_dataset/hi/test.tsv](file:///c:/Users/siddh/Desktop/asr_model_benchmark/data/raw/my_dataset/hi/test.tsv)), containing 2,095 validated utterances.
+- **Evaluation Split:** Held-out benchmark test partition (`data/raw/my_dataset/hi/test.tsv`), containing 2,095 validated utterances.
 - **Evaluation Subset:** 100 fixed, reproducible utterances sampled from `test.tsv` using a deterministic seed (`RANDOM_SEED = 42`).
 - **Subset Audio Duration:** 458.18 seconds (~7.6 minutes; mean utterance duration: 4.58 seconds).
 
@@ -90,17 +75,17 @@ The benchmark is conducted on the official **Mozilla Common Voice (Hindi - `hi`)
 
 ## Experimental Setup
 
-- **Sample Size:** 100 unique utterances evaluated across all three models under both clean and noisy conditions (600 total inferences).
+- **Sample Size:** 100 unique utterances evaluated across all three models under both clean and noisy conditions (100 clean samples × 3 models × 2 conditions = 600 total model/sample evaluations).
 - **Clean Condition:** Original Common Voice audio clips loaded and resampled to 16 kHz mono.
 - **Noisy Condition:** Controlled synthetic-noise stress testing at **10 dB SNR** using Additive White Gaussian Noise (AWGN), preserving reference transcripts.
 - **Batch Size:** Exactly 1 (simulating single-stream real-time voice processing).
 - **Warm-Up Procedure:** One untimed warm-up inference executed per model prior to timing to isolate model loading and weight allocation.
-- **Host Environment:**
+- **Host Execution Environment:**
   - OS: Windows 11 (x86_64)
   - Python: 3.12.5
   - PyTorch: 2.14.0+cpu
   - Hardware: Intel Core processor (8 physical cores, 12 logical threads), 16 GB DDR4 RAM
-  - GPU: NVIDIA GeForce RTX 2050 (Driver: 591.86, CUDA 13.1; benchmark executed via PyTorch CPU runtime)
+  - Runtime Mode: CPU-based execution (Peak GPU memory is 0.0 MB because the benchmark was executed on host CPU via PyTorch CPU runtime).
 
 ---
 
@@ -158,32 +143,63 @@ Comparative Evaluation & Architecture Synthesis
 
 *Recognition performance (WER; lower is better):*
 
-| Model | Clean WER | Noisy WER (10 dB) | WER Degradation ($\Delta\text{WER}$) | Clean Latency | Noisy Latency | Clean RTF | Noisy RTF |
-| :--- | ---:| ---:| ---:| ---:| ---:| ---:| ---:|
-| **Faster-Whisper (`base`)** | **1.0857** | **1.1057** | **+0.0200** | **2.336 s** | **3.502 s** | **0.569** | **0.842** |
-| **OpenAI Whisper (`base`)** | **1.1018** | **1.1251** | **+0.0233** | **4.416 s** | **4.775 s** | **1.149** | **1.131** |
-| **Wav2Vec2 (`base-960h`)** | **1.0748** | **1.1847** | **+0.1099** | **0.376 s** | **0.368 s** | **0.083** | **0.081** |
+| Model | Clean WER | Noisy WER (10 dB) | WER Degradation ($\Delta\text{WER}$) | Clean Latency | Noisy Latency | Clean RTF | Noisy RTF | CPU RAM | GPU Peak |
+| :--- | ---:| ---:| ---:| ---:| ---:| ---:| ---:| ---:| ---:|
+| **Faster-Whisper (`base`)** | **1.0857** | **1.1057** | **+0.0200** | **2.336 s** | **3.502 s** | **0.569** | **0.842** | **619.7 MB** | **0.0 MB** |
+| **OpenAI Whisper (`base`)** | **1.1018** | **1.1251** | **+0.0233** | **4.416 s** | **4.775 s** | **1.149** | **1.131** | **840.1 MB** | **0.0 MB** |
+| **Wav2Vec2 (`base-960h`)** | **1.0748** | **1.1847** | **+0.1099** | **0.376 s** | **0.368 s** | **0.083** | **0.081** | **962.9 MB** | **0.0 MB** |
+
+*Note: Peak GPU memory is 0.0 MB across all models because the benchmark was executed on host CPU.*
 
 ### Raw Benchmark Datasets
-- [results/raw/clean_benchmark_results.csv](file:///c:/Users/siddh/Desktop/asr_model_benchmark/results/raw/clean_benchmark_results.csv) (300 records)
-- [results/raw/benchmark_results_noisy.csv](file:///c:/Users/siddh/Desktop/asr_model_benchmark/results/raw/benchmark_results_noisy.csv) (300 records)
-- [results/raw/benchmark_results.csv](file:///c:/Users/siddh/Desktop/asr_model_benchmark/results/raw/benchmark_results.csv) (600 combined records)
-- [results/tables/benchmark_summary.csv](file:///c:/Users/siddh/Desktop/asr_model_benchmark/results/tables/benchmark_summary.csv)
+- Clean Results (300 records): [results/raw/clean_benchmark_results.csv](./results/raw/clean_benchmark_results.csv)
+- Noisy Results (300 records): [results/raw/benchmark_results_noisy.csv](./results/raw/benchmark_results_noisy.csv)
+- Full Results (600 records): [results/raw/benchmark_results.csv](./results/raw/benchmark_results.csv)
+- Summary Metrics (CSV): [results/tables/benchmark_summary.csv](./results/tables/benchmark_summary.csv)
+- Summary Metrics (JSON): [results/raw/benchmark_summary.json](./results/raw/benchmark_summary.json)
+
+---
+
+## Model Comparison
+
+The matrix below summarizes the empirical benchmark measurements obtained on the fixed evaluation subset under identical testing conditions.
+
+*Note on Evaluation Metric: Word Error Rate is defined as $\text{WER} = \frac{S + D + I}{N_{\text{ref}}}$. **Lower WER indicates fewer word-level recognition errors.** Because the evaluation dataset contains Hindi speech with Devanagari ground truth, while off-the-shelf checkpoints output Romanized text or Urdu script (Whisper) or English uppercase characters (Wav2Vec2), baseline word substitution is near 1.0; values exceeding 1.0 reflect insertion tokens ($I > 0$).*
+
+*Note on Hardware: Peak GPU memory is 0.0 MB across all models because the benchmark was executed on host CPU (Intel 8 physical cores, 12 logical processors, 16 GB RAM) with PyTorch CPU runtime.*
+
+| Model | Recognition Accuracy (WER) | Latency | Resource Usage | Ease of Deployment | Suitability for Noisy Audio |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Faster-Whisper (`base`)** | **Clean WER:** 1.0857<br>**Noisy WER:** 1.1057<br>*(Lower is better)* | **Clean Avg:** 2.336 s (`RTF: 0.569`)<br>**Noisy Avg:** 3.502 s (`RTF: 0.842`) | **CPU Memory:** 619.7 MB<br>**GPU Peak:** 0.0 MB *(CPU mode)* | **High:** CTranslate2 C++ inference engine with native INT8 CPU quantization, self-contained binary execution without PyTorch runtime dependency, minimal system overhead, compact disk footprint (~145 MB), and integrated PyAV decoding. | **High Robustness:** Measured Clean WER: 1.0857 \| Noisy WER: 1.1057 (WER degradation = **+0.0200**). High noise robustness attributable to 80-channel log-Mel spectrogram front-end and cross-attention sequence conditioning (+1.8% relative degradation under 10 dB SNR). |
+| **OpenAI Whisper (`base`)** | **Clean WER:** 1.1018<br>**Noisy WER:** 1.1251<br>*(Lower is better)* | **Clean Avg:** 4.416 s (`RTF: 1.149`)<br>**Noisy Avg:** 4.775 s (`RTF: 1.131`) | **CPU Memory:** 840.1 MB<br>**GPU Peak:** 0.0 MB *(CPU mode)* | **Moderate:** Standard PyTorch dependency stack requiring external FFmpeg binary on host system PATH. Lacks native INT8 CPU quantization in official release; runs in FP32 on CPU, incurring higher memory overhead and longer setup latency. | **High Robustness:** Measured Clean WER: 1.1018 \| Noisy WER: 1.1251 (WER degradation = **+0.0233**). Strong noise resilience via Mel-filterbank acoustic compression and autoregressive decoding (+2.1% relative degradation under 10 dB SNR). |
+| **Wav2Vec2 (`base-960h`)** | **Clean WER:** 1.0748<br>**Noisy WER:** 1.1847<br>*(Lower is better)* | **Clean Avg:** 0.376 s (`RTF: 0.083`)<br>**Noisy Avg:** 0.368 s (`RTF: 0.081`) | **CPU Memory:** 962.9 MB<br>**GPU Peak:** 0.0 MB *(CPU mode)* | **Moderate:** Standard Hugging Face Transformers + PyTorch stack. Acoustic-only model requiring custom feature extractor pipeline and external CTC beam-search/language-model integrations for domain vocabulary adaptation; checkpoint size is ~378 MB. | **Vulnerable to Noise:** Measured Clean WER: 1.0748 \| Noisy WER: 1.1847 (WER degradation = **+0.1099**). Significant noise degradation (+10.2% relative) under 10 dB SNR. Raw waveform temporal CNN encoder lacks autoregressive language model smoothing, causing acoustic feature distortion to trigger CTC frame misclassifications. |
+
+*Full formatted comparison document:* [results/tables/model_comparison.md](./results/tables/model_comparison.md)
 
 ---
 
 ## Visual Results
 
-Interactive visualization charts and comparison plots are available in the repository:
-- **Interactive Google Colab Notebook:** [notebooks/asr_benchmark_demo.ipynb](file:///c:/Users/siddh/Desktop/asr_model_benchmark/notebooks/asr_benchmark_demo.ipynb)
-- **Model Comparison Table:** [results/tables/model_comparison.md](file:///c:/Users/siddh/Desktop/asr_model_benchmark/results/tables/model_comparison.md)
-- **Plotting Script:** [scripts/generate_plots.py](file:///c:/Users/siddh/Desktop/asr_model_benchmark/scripts/generate_plots.py)
+Key empirical visual comparisons generated from the benchmark summary:
+
+| Word Error Rate: Clean vs. Noisy (10 dB SNR) | Inference Latency per Utterance (CPU Runtime) |
+| :---: | :---: |
+| ![Clean vs Noisy WER](./results/figures/clean_vs_noisy_wer.png) | ![Inference Latency](./results/figures/latency_comparison.png) |
+
+| Real-Time Factor (RTF; < 1.0 = Faster than Real-Time) | Peak CPU Memory Utilization (RSS) |
+| :---: | :---: |
+| ![Real-Time Factor](./results/figures/rtf_comparison.png) | ![CPU Memory](./results/figures/memory_comparison.png) |
+
+### Demonstration Resources:
+- **Interactive Google Colab Notebook:** [notebooks/asr_benchmark_demo.ipynb](./notebooks/asr_benchmark_demo.ipynb)
+- **Model Comparison Table:** [results/tables/model_comparison.md](./results/tables/model_comparison.md)
+- **Plotting Script:** [scripts/generate_plots.py](./scripts/generate_plots.py)
 
 ---
 
 ## Research Findings
 
-A comprehensive architectural and literature analysis is documented in [research/model_research.md](file:///c:/Users/siddh/Desktop/asr_model_benchmark/research/model_research.md). Key findings include:
+A comprehensive architectural and literature analysis is documented in [research/model_research.md](./research/model_research.md) with primary literature cataloged in [research/references.md](./research/references.md). Key findings include:
 
 1. **Inference Acceleration:** Faster-Whisper's CTranslate2 C++ engine executes 1.89× faster than PyTorch Whisper on CPU with a 26% smaller memory footprint, successfully achieving real-time streaming capability (`RTF: 0.569`).
 2. **Noise Robustness:** Whisper's log-Mel spectrogram front-end and cross-attention autoregressive decoding confer high acoustic noise resistance, degrading by only +2.0% under 10 dB SNR noise.
@@ -194,17 +210,17 @@ A comprehensive architectural and literature analysis is documented in [research
 
 ## Deployment Considerations
 
-- **CPU-Only Deployments:** Faster-Whisper with INT8 quantization is optimal for CPU server deployments, sustaining multiple concurrent streams per core without GPU costs.
-- **GPU Acceleration:** For high-throughput batch workloads, CUDA acceleration reduces Faster-Whisper RTF below 0.05.
-- **Container Footprint:** Faster-Whisper eliminates heavy PyTorch dependencies, reducing Docker container image sizes from ~4 GB to ~800 MB.
-- **Silero VAD Integration:** Implementing Voice Activity Detection before the ASR model filters out acoustic silence, preventing decoder hallucination.
+- **CPU-Only Deployments:** Based on the measured CPU benchmark in this project, Faster-Whisper with INT8 quantization proved most computationally efficient for CPU server deployments, sustaining real-time execution (`RTF: 0.569`) with 619.7 MB RAM usage.
+- **GPU Acceleration:** As documented in published SYSTRAN / CTranslate2 benchmarks [3, 4], GPU execution on CUDA hardware can achieve RTFs below 0.05 for batch processing; in our CPU testbed, Faster-Whisper maintained an RTF of 0.569.
+- **Container Footprint:** CTranslate2 eliminates heavy PyTorch runtime dependencies when deployed with standalone C++ runtimes, reducing container image sizes compared to full PyTorch/CUDA images [4].
+- **Silero VAD Integration:** Voice Activity Detection filters out non-speech silence before ASR decoding, mitigating autoregressive hallucination risks [4].
 
 ---
 
 ## Optimization Strategy
 
 To optimize ASR models for production telephony and voice assistant systems:
-1. **Quantization:** Apply 8-bit integer quantization (INT8) to reduce memory bandwidth by 50% with minimal loss in transcription accuracy.
+1. **Quantization:** Apply 8-bit integer quantization (INT8) to reduce memory bandwidth by ~50% with minimal loss in transcription accuracy.
 2. **Dynamic Batching:** Group concurrent incoming audio streams into dynamic micro-batches during server inference.
 3. **Acoustic Preprocessing:** Apply spectral subtraction or a lightweight RNNoise / DTLN denoiser prior to ASR ingestion.
 4. **Engineered Decoding:** Enforce explicit language and prompt tokens (`task="transcribe"`, `language="hi"`) to constrain output orthography.
@@ -257,19 +273,22 @@ Telemetry & Monitoring (Prometheus Metrics: Latency, Audio Duration, Confidence)
 ## Project Structure
 
 ```
-asr_model_benchmark/
+asr-model-benchmark/
+├── ASR_Technical_Research_Report_Siddhesh_Raut.pdf   # Comprehensive research report
+├── ASR_Executive_Summary_Siddhesh_Raut.pdf          # Executive decision memo
 ├── data/
 │   ├── raw/                  # Read-only source corpus (Mozilla Common Voice hi)
 │   └── processed/            # Evaluation manifests and 10dB noisy audio copies
 ├── models/                   # Downloaded model weights (Faster-Whisper, Wav2Vec2)
-├── notebooks/                # Google Colab demonstration notebook
+├── notebooks/                # Interactive demonstration notebook
 │   └── asr_benchmark_demo.ipynb
-├── research/                 # In-depth architectural & literature research
-│   └── model_research.md
+├── research/                 # Architectural & literature research documentation
+│   ├── model_research.md
+│   └── references.md
 ├── results/
 │   ├── raw/                  # Raw benchmark CSVs and JSON summary
 │   ├── tables/               # Formatted comparison tables (Markdown & CSV)
-│   └── figures/              # Visualization figures and plotting scripts
+│   └── figures/              # Benchmark visualization charts
 ├── scripts/                  # Standalone benchmark execution & diagnostic scripts
 ├── src/                      # Modular Python source library
 │   ├── audio/                # Audio loader & noise generation utilities
@@ -285,12 +304,16 @@ asr_model_benchmark/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/asr_model_benchmark.git
-cd asr_model_benchmark
+git clone https://github.com/Siddhessh511/asr-model-benchmark.git
+cd asr-model-benchmark
 
 # Create and activate virtual environment
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# On Linux/macOS:
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
 
 # Install required dependencies
 pip install -r requirements.txt
@@ -323,6 +346,7 @@ python scripts/run_benchmark.py --models faster_whisper whisper wav2vec2 --condi
 ```bash
 python scripts/compute_summary.py
 python scripts/generate_tables.py
+python scripts/generate_plots.py
 ```
 
 ---
@@ -337,10 +361,26 @@ To ensure strict scientific reproducibility:
 
 ---
 
+## Documents
+
+The following primary documents and deliverables are available in the repository:
+
+- **Technical Research Report:** [ASR_Technical_Research_Report_Siddhesh_Raut.pdf](./ASR_Technical_Research_Report_Siddhesh_Raut.pdf)
+- **Executive Summary:** [ASR_Executive_Summary_Siddhesh_Raut.pdf](./ASR_Executive_Summary_Siddhesh_Raut.pdf)
+- **Model Research:** [research/model_research.md](./research/model_research.md)
+- **Authoritative References:** [research/references.md](./research/references.md)
+- **Model Comparison Table:** [results/tables/model_comparison.md](./results/tables/model_comparison.md)
+- **Benchmark Summary (CSV):** [results/tables/benchmark_summary.csv](./results/tables/benchmark_summary.csv)
+- **Interactive Demonstration Notebook:** [notebooks/asr_benchmark_demo.ipynb](./notebooks/asr_benchmark_demo.ipynb)
+
+---
+
 ## References
 
-1. **Radford, A., et al. (2022).** *Robust Speech Recognition via Large-Scale Weak Supervision.* OpenAI. arXiv:2212.04356.
-2. **Baevski, A., et al. (2020).** *wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations.* Meta AI. NeurIPS 2020.
-3. **Klein, G., et al. (2020).** *OpenNMT: Neural Machine Translation Toolkit & CTranslate2 Inference Engine.* Systran.
-4. **Ardila, R., et al. (2020).** *Common Voice: A Massively-Multilingual Speech Corpus.* LREC 2020.
-5. **Graves, A., et al. (2006).** *Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks.* ICML 2006.
+1. **Radford, A., et al. (2022).** *Robust Speech Recognition via Large-Scale Weak Supervision.* OpenAI. arXiv:2212.04356. [https://arxiv.org/abs/2212.04356](https://arxiv.org/abs/2212.04356)
+2. **Baevski, A., et al. (2020).** *wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations.* Meta AI. NeurIPS 2020. [https://arxiv.org/abs/2006.11477](https://arxiv.org/abs/2006.11477)
+3. **Klein, G., et al. (2020).** *OpenNMT: Neural Machine Translation Toolkit & CTranslate2 Inference Engine.* Systran. [https://opennmt.net/CTranslate2/](https://opennmt.net/CTranslate2/)
+4. **SYSTRAN / Klein, G. (2023).** *Faster Whisper: Faster Whisper transcription with CTranslate2.* [https://github.com/SYSTRAN/faster-whisper](https://github.com/SYSTRAN/faster-whisper)
+5. **Meta AI / Hugging Face (2020).** *Wav2Vec2-Base-960h Model Card & Checkpoint.* [https://huggingface.co/facebook/wav2vec2-base-960h](https://huggingface.co/facebook/wav2vec2-base-960h)
+6. **Ardila, R., et al. (2020).** *Common Voice: A Massively-Multilingual Speech Corpus.* LREC 2020. [https://aclanthology.org/2020.lrec-1.520/](https://aclanthology.org/2020.lrec-1.520/)
+7. **Graves, A., et al. (2006).** *Connectionist Temporal Classification: Labelling Unsegmented Sequence Data with Recurrent Neural Networks.* ICML 2006. [https://dl.acm.org/doi/10.1145/1143844.1143891](https://dl.acm.org/doi/10.1145/1143844.1143891)

@@ -20,6 +20,18 @@ env/
 .venv/
 ENV/
 
+# Archives and compressed datasets
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+
+# Environment files and credentials
+.env
+.env.*
+*.pem
+*.key
+
 # System and logs
 *.log
 .DS_Store
