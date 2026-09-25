@@ -1,0 +1,15 @@
+{
+  "total_rows": 2095,
+  "selected_rows": 100,
+  "audio_count": 9423,
+  "missing_audio_count": 0,
+  "empty_transcript_count": 0,
+  "duplicate_audio_references": 0,
+  "duplicate_transcripts": 0,
+  "total_selected_duration": 458.184,
+  "mean_selected_duration": 4.582,
+  "source_metadata_file": "data/raw/my_dataset/hi/test.tsv",
+  "audio_column": "path",
+  "transcript_column": "sentence",
+  "random_seed": 42
+}

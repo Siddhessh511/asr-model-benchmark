@@ -1,0 +1,301 @@
+model,audio_path,reference,prediction,audio_duration_sec,wer,inference_time_sec,real_time_factor,cpu_memory_mb,gpu_peak_memory_mb,condition
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24974933.mp3,वह बहुत बोलती है।,وها بحضب بلديها,3.384,1.0,2.5852,0.764,616.7,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24774805.mp3,टॉम के पास चाय नहीं है।,Tam ke pas chai nahi hai,2.7,1.0,1.1356,0.4206,616.71,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26032384.mp3,थोड़ी ऊँची आवाज़ में बोलिए।,तो ची एभ़ात में जाटा अभूटे अभ़ाष़ेआपौ lower,3.78,1.4,7.5893,2.0078,608.1,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25612223.mp3,राजस्थान: क्या बाड़मेर विधानसभा सीट पर कांग्रेस लगाएगी हैट्रिक?,"Rajasthan, kya barmeer Vidhan Sava seat per Congress lagaayi hattrick?",5.868,1.1111,1.1544,0.1967,613.2,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23964614.mp3,यह रही तेरी चाय।,ieri di diri c'ai,3.144,1.25,2.3389,0.7439,616.76,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25188824.mp3,जल्दी से दरवाजा बंद कर दीजिए।,جلڑی سے دروازہ بند کر دی جے,4.68,1.1667,1.2144,0.2595,615.35,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25148885.mp3,बीएसएनएल की नजर विदेशी बाजारों पर,Bu yasalak yülesek bir değişik kazanırta.,3.312,1.0,3.2128,0.97,617.63,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26226369.mp3,मेरे पास आज बहुत काम है।,میری پاس آج بہت کام ہے,5.364,1.0,1.7777,0.3314,617.64,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23937111.mp3,यह सशक्त लोकपाल नहीं हैः लालू यादव,یا سسکت لوگ پان میں ہی ہے لالو یادو,4.584,1.2857,1.1073,0.2416,617.64,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25224997.mp3,यहाँ से ज़्यादा दूर नहीं है।,جا اقتے دادہ دون نہیں ہے,4.14,1.0,1.1894,0.2873,617.65,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24924087.mp3,'सचिन तेंदुलकर' बन कर चौके-छक्के लगाते नजर आए कैलाश विजयवर्गीय,سچین تنگل کر بان کر چاکچھ حکے لگا دیم نجر آئی پیل آس بیجے ورڈییا,8.136,1.3636,1.2546,0.1542,617.83,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25148883.mp3,मैं तुमसे सहमत नहीं हूँ।,Matthew 6th at Matthew 3rd grade.,2.628,1.2,2.3199,0.8828,617.83,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25037977.mp3,बाबा रामदेव बोले- भारत में करोड़ों कमाकर बिरयानी खाते हैं पाकिस्तानी कलाकार,بہبر عامدف بولے بھارت میں کروڑوں کمان کر بریانی خاتھتے ہیں پاکس تانی کلہ کر,7.74,1.25,1.3051,0.1686,617.84,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25983780.mp3,केन खुश है।,Game Cushion,2.7,1.0,2.7823,1.0305,617.84,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23827791.mp3,उसने अपने दुख को अपनी मुस्कुराहट के पीछे छिपा लिया।,اس نے اپنے دک کو اپنی مزکور آہاد کے پیچھے چھپا لیا,5.064,1.2,1.5216,0.3005,617.85,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26166173.mp3,तुम कौनसे जूते पहनोगी?,2. Concentration of Penalty,4.608,1.0,2.9734,0.6453,617.79,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24956009.mp3,केसी त्यागी बोले- हमनें नहीं दिया तेजस्वी को कोई अल्टीमेटम,"K錫 Tiagee Bhole,  We have not given any altimeter to any altimeter.",6.228,1.2,10.4125,1.6719,620.28,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25323108.mp3,अभी तक हुआ नहीं है।,افیطت قرآن نہیں ہے,2.916,1.0,1.2301,0.4219,618.61,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26326384.mp3,"पत्रकार को गोली लगी, हालत गंभीर",Patrakar Kogoli Lagi Halat Kambhir,4.068,1.0,1.1517,0.2831,618.61,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24028185.mp3,हैदराबाद एनकाउंटर पर बोली शिवसेना- पुलिस ने न्याय के लिए अपनाया शॉर्टकट,"Hedraba da nukounter pru bholisusina, pulisni ni niay keili apna ja shartfud.",7.38,1.0,4.3893,0.5948,621.25,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26028413.mp3,मतलबी इनसान केवल अपनी भावनाओं के बारे में ही सोचता है।,مطلبی انسان کے والپنی بھانا ہو کے باری میں ہی سوتتا,4.788,1.0,1.2443,0.2599,621.26,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25149636.mp3,वह चाय पसंद करता है।,واجعي بفند قرطارة,3.24,1.0,2.9141,0.8994,621.26,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25153163.mp3,महाराष्ट्र की सियासत में आया उबाल,محرست کی سیاصد میں آیا ابال,4.788,1.0,1.2579,0.2627,621.27,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24639164.mp3,"आम आदमी पार्टी में लगाए जा रहे हैं 'एंटी वायरस', कुमार ने गिनाए काम","عام Admi Party میں لگاہ جارہ ہے انٹیوائرس, قمار نے گنائے کام.",6.264,1.0,2.1641,0.3455,621.27,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23964485.mp3,यह लिफ़्ट छटी मंज़िल तक ही जाती है।,Lifting Chatti Manjil Taki Jati,3.936,1.0,2.8376,0.7209,621.27,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25988815.mp3,मेरे कमरे में टीवी नहीं है।,۔,2.736,1.0,7.116,2.6009,621.16,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24957821.mp3,वह उसकी ख़ासियत है।,وہو اس کی کسیت ہے,2.916,1.25,1.1984,0.411,621.15,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24974934.mp3,जो मरने वाले हैं वे तुम्हें सलाम करते हैं।,جو مرنے والے ہیں بیت تم ہے سلام کرتے ہیں,5.544,1.1111,1.1434,0.2062,621.15,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25161553.mp3,तमिलनाडु: डीएमके पूर्व मंत्री के घर पड़ा छापा,"تم in lado, DMK Pura Mandri ke Ghar Pada Chha Pa",5.076,1.375,1.1128,0.2192,621.15,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24495097.mp3,यह सोना है।,要按手呢,3.204,1.0,2.2839,0.7128,621.16,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23852747.mp3,शनिवार हफ़्ते का आखिरी दिन होता है।,"ṣiniverัth háptika, آľký límho ta hodá hodá hodá hodá hodá hodá hoda.",7.176,1.7143,10.5967,1.4767,619.55,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24969805.mp3,उसकी मदद कौन करता है?,Brucecimadat koungurta hai,3.348,1.0,7.327,2.1885,608.56,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23833317.mp3,मुझे एक कप चाय चाहिए।,mou de ik ka pcha i chahi ya,3.336,1.6,6.0795,1.8224,621.36,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23964497.mp3,"टीचर ने बाथरूम में छात्रा से की छेड़छाड़, मामला दर्ज",Kichan Nebatrum Me Chhatra Se Kichir Chhan Mahabla Daj,6.384,1.0,3.8906,0.6094,621.36,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25437208.mp3,उसने एक अंडा बहर निकाला।,اس نے kanda baar nikala,3.456,1.0,4.5752,1.3238,620.04,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26080952.mp3,यह लड़का मेरा बेटा है।,یہ لڑ کا مرہ بیٹا ہے,3.744,1.2,1.1446,0.3057,620.01,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24957787.mp3,जाँच-पड़ताल जारी है।,جانچ پڑتل جاری ہے,2.988,1.0,1.1453,0.3833,620.02,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25225001.mp3,क्या मंगाऊँ?,giá mần đầu,3.924,1.5,1.1195,0.2853,620.02,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25180517.mp3,सभी लड़के भाग गए।,سبی لڑ کے بھگ گئے,3.06,1.25,1.1363,0.3714,620.02,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25033131.mp3,बढ़िया शो था।,बपदिषोगगा,2.772,1.0,7.1334,2.5734,608.55,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25128214.mp3,अस्पताल यहाँ से नज़दीक है।,اصفتال یہاں سے نزدی کر,2.808,1.0,1.1572,0.4121,613.76,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23795360.mp3,वह चाय पी रहा है।,بچائی پیر آیا,4.344,1.0,1.1235,0.2586,614.67,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25473137.mp3,अपनी अगली फिल्म में इस एक्ट्रेस से रोमांस करेंगे कॉमेडियन कपिल शर्मा,اپنے آگیشل میں اس ایکلس سے رومانس کریں گے کمیدین تپل شرما,5.328,1.0,1.2339,0.2316,614.75,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25285596.mp3,आप बिलकुल भी डरे हुए नहीं लगते हो।,अप पेलकुल पे जरे वे लगते हो,3.168,0.75,1.1999,0.3787,614.86,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24770295.mp3,मुझे अपने तरीके से करने दो।,mou je apne tari ke se kar ne do,2.7,1.5,1.1414,0.4227,614.87,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26008569.mp3,किसे मालूम है?,ये बालुन है?,2.916,0.6667,1.6088,0.5517,617.85,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25319367.mp3,बिहार में आज रात से ट्रांसपोर्टरों का अनिश्चितकालीन चक्का जाम,بھیار میں آج رات سے τھانسپورٹروں کا  انشچ کالین چکا جام,7.308,1.1,1.6474,0.2254,620.27,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25150964.mp3,भोज ओपन यूनिवर्सिटी में खुलेगी लैंग्वेज लैब,Bhoj Open University May Kholagi Languages Lab,4.608,1.0,1.1366,0.2466,620.27,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24976200.mp3,मैं उसका बिलकुल भी यकीन नहीं करता।,iütska bilkyl biya kii nahin karta,3.492,1.0,7.2399,2.0733,608.54,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26080940.mp3,वे ज़मीन एकड़ों में बेचतें हैं।,ویزمین ایک عالوم میں بیٹ دے ہے,5.328,1.1667,1.1186,0.2099,615.81,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24562189.mp3,वे स्पेनी हैं।,Respen nih hal,3.132,1.0,3.3695,1.0758,608.5,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25225022.mp3,वह अपनी बूढ़ी माँ की देखभाल करती है।,وہاں اپنے بھڑی ماکی دیکھ بال کرتی ہے,5.4,1.0,3.4176,0.6329,619.37,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24016298.mp3,कंधमाल कांड: नन ने मुख्य आरोपी की पहचान की,கண்டுமால காண்டு நன்னை முக்காரோ பிகிப் பைச்சாங்கி,4.536,1.0,1.1736,0.2587,619.37,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23795248.mp3,आभा ने राठौड़ से जेल में मुलाकात की,ابھانے رکھور سے جیل میں ملگ آگت کی,4.296,1.0,1.1352,0.2642,619.37,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25033127.mp3,"मैं थोड़ा-बहुत समझ सकता हूँ, पर बोल नहीं सकता हूँ।",i can't say much but i can't say anything,5.22,1.0,4.3819,0.8394,620.42,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23901987.mp3,वह दस साल का लड़का था।,وهابس سانگلگہ تھا,3.744,1.0,3.2532,0.8689,620.86,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26619813.mp3,इसलिए याद किए जाते रहेंगे ओम पुरी...,اسلیں یاد کیا جاتے رہیں گے ام پوری,2.88,1.1429,1.1051,0.3837,620.86,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24969566.mp3,"लोकसभा में कल उठेगा जानलेवा प्रदूषण का मुद्दा, प्रकाश जावड़ेकर देंगे जवाब",Lokesavamhe ka lutega jhanleva pradushan ka mudda prakash jaavde ka dhe inge jaavab.,6.66,1.0833,1.1557,0.1735,620.87,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26239092.mp3,दो बार की ग्रैंडस्लैम चैम्पियन ली ना ने टेनिस से संन्यास लिया,2 bar ki Grand Slam Champion Klinane Tennis Sane Asliya.,5.508,1.0,1.4561,0.2644,620.87,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25164217.mp3,"अयोध्या में हलचल, तेज हो रहा राम मंदिर के लिए पत्थर तराशने का काम",,7.308,1.0,1.1635,0.1592,620.87,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24660520.mp3,घर चमकाना हो तो कीजिए रीठा का इस्तेमाल,ھنگھر چمکانا ہوں تو کی جیری کھا گا استمال,5.796,1.125,1.1076,0.1911,620.87,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25437237.mp3,"बॉक्स ऑफिस पर पिटी सोनचिड़िया, लुका छुपी के सामने तोड़ा दम","box office properties on chidia, looka chipi ke saam ne toodadam",6.048,1.0,1.168,0.1931,620.88,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26007440.mp3,यहाँ स्पेनी बोली जाती है।,یہاں spainy boli جاتی ہے,5.328,1.0,1.364,0.256,620.88,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25170244.mp3,पाकिस्तान ने परमाणु क्षमता सम्पन्न मिसाइल का परीक्षण किया,Pakistan ne Parmanu Chhanta Sampan missile ka Parikshan kia.,5.616,1.0,1.1116,0.1979,620.88,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25983325.mp3,तुम पुर्त्तगाल में रहती हो या ब्राज़ील में?,تم پر تو گاہل میں تیحوی روزیدنی,3.096,1.0,1.1729,0.3788,620.88,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23964481.mp3,इन्सान का शरीर एक तरह की मशीन होती है।,انشان کا سریر ایک درہ کی مشین ہوتی ہے,4.464,1.0,1.1226,0.2515,620.89,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24559397.mp3,उसने पीछे मुड़कर मुझपर मुस्कुराया।,"Усне пить сеймурка, но скано скано скано.",4.32,1.4,3.5913,0.8313,620.89,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25174030.mp3,"इस केक में आटा, दूध, अंडे और शक्कर है।",اس کے ایک میں آتا دود انڈے اور شرکر ہے,4.968,1.1111,1.1514,0.2318,620.89,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24969592.mp3,चीन में मेरा और एक दोस्त है।,अजीन ही मेरा आरे दोसता,3.6,0.8571,2.8811,0.8003,620.89,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26032231.mp3,मैं चाय पीना चाहता हूँ।,میں جائبینا جہتا ہوں,3.744,1.0,1.1066,0.2956,620.9,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23830501.mp3,"सिंगापुर को मलाय में ""सिंगापुरा"" कहते हैं।",سنگا پور کو ملای میں سنگا پورا گئی تھی ہیں,5.424,1.4286,1.2862,0.2371,620.9,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24016299.mp3,महिलाओं के लिये स्ट्रिप क्लब है।,"My now, Kaliya is triple of her.",3.816,1.1667,2.4492,0.6418,620.9,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26555405.mp3,अनुपम ने विकलांग लड़की की मदद की इच्छा जताई,Anubhamne viklaanglardhi ki madhati itcha jadai,3.96,1.0,1.135,0.2866,620.9,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26249356.mp3,"ब्रिटिश जज ने पूछा, ‘ये चौके और छक्के क्या होते हैं?’","Brittis Jajne Pucha,  These chokki and chakki,  what happen?",4.536,1.0,1.1771,0.2595,620.9,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25038077.mp3,"पुराने ढर्रे पर कपिल शर्मा, क्या खत्म होने की ओर है उनका करियर?","Puranidh Dharripur Kapil Sharma,  کیا கھت میں ہونی کی اور ہے ان کا کرьیر?",6.876,1.0769,1.1761,0.171,620.9,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24584891.mp3,बर्थडे स्पेशल: फिल्मों में एक्टिंग के लिए छोड़ दी थी इंजीनियरिंग...,BART DESTFUITION.  FILMOM ATTINK LIA CHOIR DETHINGEN.,5.256,1.0,5.0742,0.9654,620.9,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26117148.mp3,ग्रीक लोग भी अक्सर मछली खाते हैं।,Greeke Lokbi Arthasar Mashli Khatayin,3.852,1.0,3.3702,0.8749,620.9,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25158023.mp3,मेरे पास जो भी पैसे थे मैंने उसे दे दिए।,میری پاس جو بھی پیسی تھی میریوں سے دیدیے,4.644,1.0,1.6177,0.3483,620.9,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25153166.mp3,कश्मीर में हड़ताल से सामान्य जनजीवन प्रभावित,KaShmir me hartalsh saman ni janjivan prvavit.,5.148,1.0,1.161,0.2255,620.92,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23828802.mp3,मुझे भावी प्रधानमंत्री न समझा जाए: राहुल गांधी,bha bhi pradhan mantri na saam jao jao hai rahol gandhi,7.296,1.375,1.2203,0.1673,620.92,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25319372.mp3,"इवेंट में चिल्लाते हुए पाकिस्तानी लड़की ने किया प्रियंका से सवाल, मिला करारा जवाब",ایبنٹ میں چلاتے ہوئے پاکستانی لڑکی میں کیا پر ینگ کا سے سوال  ملا کرارا جواب,8.28,1.1429,1.2711,0.1535,620.95,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24969923.mp3,तुम क्यों नहीं आए?,Tung kêu này ai?,3.096,1.0,2.3013,0.7433,620.95,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24038974.mp3,लव लेटर नहीं लव ट्वीट्स का है जमाना,"Love letter na hi, Love tweets ka hai samanah",4.968,1.125,1.3775,0.2773,620.95,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26558514.mp3,"पुलिस के हत्थे चढ़ा कैब में बलात्कार का आरोपी ड्राइवर, मथुरा से गिरफ्तारी","پولیس کے میکٹے چڑھا کہاں میں والاککار کار ہوتی, drywall,  مطرع سے گرفتاری",6.768,1.0,1.299,0.1919,620.95,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24829415.mp3,एक पानिनी या दो पानिनी?,Экпанини я до панини.,3.456,1.0,1.111,0.3215,620.95,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26326640.mp3,राम मंदिर पर सभी को कोर्ट के फैसले पर चलना होगा: अमर सिंह,"رحم Mandir Prasavi کو کوڑھ کے فانسلے پچھلنا ہوگا, Amar Singh",3.852,1.0,1.22,0.3167,620.95,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24956040.mp3,इस प्रोग्राम को अपने कंप्यूटर पर कॉपी कर लीजिए।,اس program کو اپنے computer پر کافی کر لی جیے,4.5,1.1111,1.1372,0.2527,620.95,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26249541.mp3,बिल चरित्र में अपने पिता से मिलता-जुलता है।,Bill Chiaritra me apne pita se milta julta hai,3.888,1.0,1.1275,0.29,620.95,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24004903.mp3,सभी उसकी अच्छाई करते है।,Sabi uski atshai karte hai,4.068,1.0,1.2149,0.2987,620.95,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25930431.mp3,उसे संत्रे अच्छे लगते हैं।,बुजिवान् ने जिला पेजे,3.42,1.0,6.5434,1.9133,620.96,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25983340.mp3,बच्चों ने एक-दूसरे की नकल करने की कोशिश करी।,بچھری دوسے کی نکال کرنے کی کوشش کری,3.636,1.0,1.2692,0.3491,620.96,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24883999.mp3,मैं उनसे इतना प्यार करता हूँ कि मैं उन्हें छोड़ नहीं सकती।,"میں ان سے اتنا بیار کرتا ہوں ki,  میں انே چھون نہیں سکتی",4.788,1.0833,1.3747,0.2871,620.96,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25473109.mp3,आप ने कुछ ज़्यादा ही पी ली है।,آپ نے کچھ جادہ یہ پیل ہے,3.78,1.0,2.9873,0.7903,620.97,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24559394.mp3,यह किताब उस किताब से पुरानी है।,"یہ kitab, اس kitab, سے پرانی ہے.",4.068,1.0,1.2886,0.3168,620.97,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24663111.mp3,अमरीकी झंडे में पचास सितारे हैं।,امریکی جنڈ میں 50 ستارے ہیں,4.212,1.0,2.0166,0.4788,620.97,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24559396.mp3,आकाश में कई अरब सितारे हैं।,आकास में के अरप सिडारे है,4.86,0.8333,1.9429,0.3998,620.97,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24956042.mp3,बारामूला: आतंकियों से मुठभेड़ में सैनिक शहीद,بارا ملا  اتنقیو سے مدبہد میں سینک شہید,6.336,1.1429,1.3221,0.2087,620.97,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26032266.mp3,एथेंस में स्विट्जरलैंड दूतावास के बाहर धमाका,ایتھنس میں سیٹیجر لنڈ دوتا واس کے بہار دھماکہ.,6.12,1.2857,1.3121,0.2144,620.98,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25983762.mp3,वह हर सुबह अखबार पढ़ती है।,بہت سبک بار پڑھتی,3.996,1.0,1.245,0.3116,620.98,0.0,clean
+Faster-Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26042084.mp3,आमिर ने मराठी फिल्म 'सैराट' की जमकर की तारीफ,"Amirne Marathi, Film, Sairad, Ki Jamkar, Ki Tarif",6.516,1.0,4.475,0.6868,620.98,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24974933.mp3,वह बहुत बोलती है।,انVER<|hi|>,3.384,1.0,5.0304,1.4865,831.48,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24774805.mp3,टॉम के पास चाय नहीं है।,طام کے پاس چاہ نہیں ہے,2.7,1.0,1.3054,0.4835,825.36,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26032384.mp3,थोड़ी ऊँची आवाज़ में बोलिए।,तो दि चि अवाद में बोलिये,3.78,1.0,6.2877,1.6634,831.44,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25612223.mp3,राजस्थान: क्या बाड़मेर विधानसभा सीट पर कांग्रेस लगाएगी हैट्रिक?,"Rajasthan, kya barmeer Vidhan Sava seat per Congress lagai ki Hatrik?",5.868,1.2222,1.6418,0.2798,833.84,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23964614.mp3,यह रही तेरी चाय।,یہ可以出な p Family Tour dhāupāda,3.144,1.25,13.8366,4.401,831.91,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25188824.mp3,जल्दी से दरवाजा बंद कर दीजिए।,جلڑی سے دروازہ بند کر دی جے,4.68,1.1667,1.3758,0.294,827.57,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25148885.mp3,बीएसएनएल की नजर विदेशी बाजारों पर,Bu 2005 задач sence 50 Geçer Fond Psychal TEADø NEVEMующeros,3.312,1.6667,5.9101,1.7844,837.24,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26226369.mp3,मेरे पास आज बहुत काम है।,My pass is very useful today.,5.364,1.0,1.1918,0.2222,832.72,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23937111.mp3,यह सशक्त लोकपाल नहीं हैः लालू यादव,یا سسکت لوگ پان میں ہی ہے لالو یادو,4.584,1.2857,1.4338,0.3128,830.02,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25224997.mp3,यहाँ से ज़्यादा दूर नहीं है।,یا اقتے دادہ دون نہیں ہے,4.14,1.0,1.294,0.3126,833.15,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24924087.mp3,'सचिन तेंदुलकर' बन कर चौके-छक्के लगाते नजर आए कैलाश विजयवर्गीय,سچین تنگل کر بان کر چاکچھ حکے لگا دیم نجر آئے کل آس بیجے ورڈییا,8.136,1.3636,1.7894,0.2199,833.9,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25148883.mp3,मैं तुमसे सहमत नहीं हूँ।,letters 19,2.628,1.0,4.9068,1.8671,832.55,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25037977.mp3,बाबा रामदेव बोले- भारत में करोड़ों कमाकर बिरयानी खाते हैं पाकिस्तानी कलाकार,بہبر عامدف بولے بھارت میں کروڑوں کمان کر بریانی خاتھتے ہیں پاکسٹانی کلہ کر,7.74,1.1667,1.8671,0.2412,833.69,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25983780.mp3,केन खुश है।,Game C Shepp,2.7,1.0,5.0052,1.8538,836.64,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23827791.mp3,उसने अपने दुख को अपनी मुस्कुराहट के पीछे छिपा लिया।,اس نے اپنے دک کو اپنی مُسکورہ ہٹ کے پیچھے چھپا لیا,5.064,1.2,1.6865,0.333,831.49,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26166173.mp3,तुम कौनसे जूते पहनोगी?,Tuku kansai jute le tapped up in,4.608,1.75,5.3656,1.1644,831.41,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24956009.mp3,केसी त्यागी बोले- हमनें नहीं दिया तेजस्वी को कोई अल्टीमेटम,"के सی تیگی بھولیں, ہم نے نہیں دیا تھے جسی کو کوئیальڈی میٹم.",6.228,1.3,11.1303,1.7871,846.25,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25323108.mp3,अभी तक हुआ नहीं है।,افیطق خوا نہیں ہے,2.916,1.0,1.2971,0.4448,846.12,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26326384.mp3,"पत्रकार को गोली लगी, हालत गंभीर",Patrakar Kogoli Lagi Halat Kambhir,4.068,1.0,1.4013,0.3445,843.31,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24028185.mp3,हैदराबाद एनकाउंटर पर बोली शिवसेना- पुलिस ने न्याय के लिए अपनाया शॉर्टकट,HydrabadaInde Counter pru targetabhtu BelleShot,7.38,1.0,7.3078,0.9902,847.09,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26028413.mp3,मतलबी इनसान केवल अपनी भावनाओं के बारे में ही सोचता है।,مطلبی انسان کے والپنی بھانا ہو کے باری میں ہی سوتتا,4.788,1.0,1.5438,0.3224,846.47,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25149636.mp3,वह चाय पसंद करता है।,جود الالكي,3.24,1.0,5.5161,1.7025,846.06,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25153163.mp3,महाराष्ट्र की सियासत में आया उबाल,محرست کی سیاصد میں آیا ابال,4.788,1.0,1.3784,0.2879,840.34,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24639164.mp3,"आम आदमी पार्टी में लगाए जा रहे हैं 'एंटी वायरस', कुमार ने गिनाए काम",Oscar verification sapshow.,6.264,1.0,6.4748,1.0337,845.76,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23964485.mp3,यह लिफ़्ट छटी मंज़िल तक ही जाती है।,hierds Armenia,3.936,1.0,5.6927,1.4463,845.06,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25988815.mp3,मेरे कमरे में टीवी नहीं है।,मważhip変 могли,2.736,1.0,44.9113,16.4149,845.59,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24957821.mp3,वह उसकी ख़ासियत है।,وہو اس کی کسیت ہے,2.916,1.25,7.2498,2.4862,842.58,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24974934.mp3,जो मरने वाले हैं वे तुम्हें सलाम करते हैं।,جو مرنے والے ہیں بے تمہے سلام کرتے ہیں,5.544,1.0,5.8157,1.049,843.34,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25161553.mp3,तमिलनाडु: डीएमके पूर्व मंत्री के घर पड़ा छापा,"تم in lado, DMK Pura Mandri ke Ghar Pada Chha Pa",5.076,1.375,1.2924,0.2546,845.68,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24495097.mp3,यह सोना है।,等於開芡這個兆重在最後的氣氛,3.204,1.0,5.0991,1.5915,843.45,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23852747.mp3,शनिवार हफ़्ते का आखिरी दिन होता है।,சிலوия singaència عقیری தி ingredแ Purple,7.176,1.0,13.6406,1.9009,846.69,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24969805.mp3,उसकी मदद कौन करता है?,그 indicates,3.348,1.0,5.0473,1.5076,848.97,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23833317.mp3,मुझे एक कप चाय चाहिए।,मुजे 1 ूचाण वचाण वचाण वचाण,3.336,1.2,6.8391,2.0501,847.7,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23964497.mp3,"टीचर ने बाथरूम में छात्रा से की छेड़छाड़, मामला दर्ज","किshirtreib gained over 7,000kg",6.384,1.0,6.3681,0.9975,850.29,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25437208.mp3,उसने एक अंडा बहर निकाला।,اس نے kanda baar nikala,3.456,1.0,11.8407,3.4261,849.89,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26080952.mp3,यह लड़का मेरा बेटा है।,یہ لڑ کا مرہ بیٹا ہے,3.744,1.2,1.3645,0.3644,843.72,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24957787.mp3,जाँच-पड़ताल जारी है।,جانچ پڑتال جاری ہے,2.988,1.0,1.3554,0.4536,842.39,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25225001.mp3,क्या मंगाऊँ?,giá mầm đầu,3.924,1.5,1.2779,0.3257,845.08,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25180517.mp3,सभी लड़के भाग गए।,سبی لڑ کے بھگ گئے,3.06,1.25,1.3688,0.4473,846.52,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25033131.mp3,बढ़िया शो था।,بڑی اشوطا,2.772,1.0,1.2961,0.4676,842.93,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25128214.mp3,अस्पताल यहाँ से नज़दीक है।,اصفتال یہاں سے نزدیکہ,2.808,1.0,1.4293,0.509,843.12,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23795360.mp3,वह चाय पी रहा है।,بچائی پیر آیا,4.344,1.0,1.3252,0.3051,842.98,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25473137.mp3,अपनी अगली फिल्म में इस एक्ट्रेस से रोमांस करेंगे कॉमेडियन कपिल शर्मा,اپنے آگیشل میں اس ایک پس سے رومانس کریں گے کمیدین تپل شرما,5.328,1.0833,1.7096,0.3209,846.36,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25285596.mp3,आप बिलकुल भी डरे हुए नहीं लगते हो।,now we are not feeling very scary,3.168,1.0,6.406,2.0221,849.44,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24770295.mp3,मुझे अपने तरीके से करने दो।,idamente drawn,2.7,1.0,9.2852,3.439,842.9,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26008569.mp3,किसे मालूम है?,کیسے مالوں ?,2.916,1.0,9.0737,3.1117,846.98,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25319367.mp3,बिहार में आज रात से ट्रांसपोर्टरों का अनिश्चितकालीन चक्का जाम,بھی гар میں اогод Tonight ้احش == artist Qal eat & ovich,7.308,1.2,6.2606,0.8567,849.69,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25150964.mp3,भोज ओपन यूनिवर्सिटी में खुलेगी लैंग्वेज लैब,Bhoj Open University May Kholagi Languages Lab,4.608,1.0,1.2756,0.2768,843.04,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24976200.mp3,मैं उसका बिलकुल भी यकीन नहीं करता।,i his绵 Це bn Вс அத Bao,3.492,1.0,18.2038,5.213,846.61,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26080940.mp3,वे ज़मीन एकड़ों में बेचतें हैं।,ویزمین ایک عرام میں بیٹ دے ہے,5.328,1.1667,1.3078,0.2455,845.84,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24562189.mp3,वे स्पेनी हैं।,ada magn8,3.132,1.0,4.2612,1.3605,848.66,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25225022.mp3,वह अपनी बूढ़ी माँ की देखभाल करती है।,"плahếpn at��를beans,",5.4,1.0,5.4434,1.008,846.81,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24016298.mp3,कंधमाल कांड: नन ने मुख्य आरोपी की पहचान की,கண்டுமால் காண்டு நன்னை முக்கியாரோ பிகிப் பைச்சாங்கி,4.536,1.0,1.7163,0.3784,843.0,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23795248.mp3,आभा ने राठौड़ से जेल में मुलाकात की,ابھا نے رکھور سے جیل میں ملاگا دکیل,4.296,1.0,1.5862,0.3692,845.26,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25033127.mp3,"मैं थोड़ा-बहुत समझ सकता हूँ, पर बोल नहीं सकता हूँ।",i could not be able to finish off my video i could be perfect,5.22,1.2727,8.8048,1.6867,850.28,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23901987.mp3,वह दस साल का लड़का था।,HNoser,3.744,1.0,4.7074,1.2573,850.34,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26619813.mp3,इसलिए याद किए जाते रहेंगे ओम पुरी...,اسلیں یاد کیا جاتے رہیں گے ام پوری,2.88,1.1429,1.3606,0.4724,843.41,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24969566.mp3,"लोकसभा में कल उठेगा जानलेवा प्रदूषण का मुद्दा, प्रकाश जावड़ेकर देंगे जवाब",Lokesavamhe ka lutega jhanleva pradushan ka mudda prakash jaavde ka dhe inge jaavab.,6.66,1.0833,1.5533,0.2332,847.16,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26239092.mp3,दो बार की ग्रैंडस्लैम चैम्पियन ली ना ने टेनिस से संन्यास लिया,2 bar ki Grand slam champion Klinane Tennises anayasliya.,5.508,1.0,1.3236,0.2403,843.34,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25164217.mp3,"अयोध्या में हलचल, तेज हो रहा राम मंदिर के लिए पत्थर तराशने का काम",ايوديا ميحلجل تيز حورها عن منطرق ليا اتر تراش نقاطم,7.308,1.0,1.572,0.2151,846.69,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24660520.mp3,घर चमकाना हो तो कीजिए रीठा का इस्तेमाल,ھنگھر چمکانا ہوں تو کی جیری کھا گا استمان,5.796,1.125,1.4548,0.251,847.26,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25437237.mp3,"बॉक्स ऑफिस पर पिटी सोनचिड़िया, लुका छुपी के सामने तोड़ा दम","box office properties on chidia, looka chipi ke saam ne, trot aadam",6.048,1.0909,1.509,0.2495,846.95,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26007440.mp3,यहाँ स्पेनी बोली जाती है।,یہاں spainy bholi jati hai,5.328,1.0,1.2726,0.2388,842.87,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25170244.mp3,पाकिस्तान ने परमाणु क्षमता सम्पन्न मिसाइल का परीक्षण किया,Pakistan ne Parmanu Chhanta Sampan misail ka Parikshan kia.,5.616,1.0,1.4045,0.2501,843.44,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25983325.mp3,तुम पुर्त्तगाल में रहती हो या ब्राज़ील में?,تم پر تو گائمے میں تیحویہ روزیدنے,3.096,1.0,1.5675,0.5063,843.39,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23964481.mp3,इन्सान का शरीर एक तरह की मशीन होती है।,انشان کا سریر ایک درہ کی مشین ہوتی ہے,4.464,1.0,1.3653,0.3058,843.16,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24559397.mp3,उसने पीछे मुड़कर मुझपर मुस्कुराया।,Но с непрейчивым как bake К масzag,4.32,1.4,5.3163,1.2306,847.36,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25174030.mp3,"इस केक में आटा, दूध, अंडे और शक्कर है।","In this cake, it contains milk, eggs and sugar.",4.968,1.0,2.1081,0.4243,849.89,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24969592.mp3,चीन में मेरा और एक दोस्त है।,t<|ar|>,3.6,1.0,8.0417,2.2338,849.3,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26032231.mp3,मैं चाय पीना चाहता हूँ।,میں جائبینا جہتا ہوں,3.744,1.0,1.2859,0.3434,843.8,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23830501.mp3,"सिंगापुर को मलाय में ""सिंगापुरा"" कहते हैं।",ھاکھ سنگہ پور کو ملای میں سنگہ پورا گئیتے ہیں,5.424,1.4286,2.518,0.4642,850.88,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24016299.mp3,महिलाओं के लिये स्ट्रिप क्लब है।,"Myually, it's a strip glove.",3.816,1.0,4.8452,1.2697,849.85,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26555405.mp3,अनुपम ने विकलांग लड़की की मदद की इच्छा जताई,Anubhamne viklaanglardhi ki madhati itcha jadai,3.96,1.0,1.3882,0.3505,843.99,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26249356.mp3,"ब्रिटिश जज ने पूछा, ‘ये चौके और छक्के क्या होते हैं?’","Brittis Jajne Pucha, These chokki and chakki, what happen?",4.536,1.0,1.5295,0.3372,844.04,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25038077.mp3,"पुराने ढर्रे पर कपिल शर्मा, क्या खत्म होने की ओर है उनका करियर?",پورانی دھرری پر کپیل شرمہ کیا کتھ میں ہونی کی اور ہے ان کا کریر,6.876,1.1538,1.5946,0.2319,846.69,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24584891.mp3,बर्थडे स्पेशल: फिल्मों में एक्टिंग के लिए छोड़ दी थी इंजीनियरिंग...,Path does speech. Film mme atping ke liya hot dhiti ogridin bammm,5.256,1.0909,6.1987,1.1793,846.83,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26117148.mp3,ग्रीक लोग भी अक्सर मछली खाते हैं।,greetke loảng bit art sir mature,3.852,1.0,4.8306,1.254,850.33,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25158023.mp3,मेरे पास जो भी पैसे थे मैंने उसे दे दिए।,میری پاس جو بھی پیسی تھی مینیو سے دیدیے,4.644,1.0,1.4558,0.3135,847.6,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25153166.mp3,कश्मीर में हड़ताल से सामान्य जनजीवन प्रभावित,Kashmir May Hartal Singh Samaani Janjivan Prabhavit.,5.148,1.0,2.2699,0.4409,847.17,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_23828802.mp3,मुझे भावी प्रधानमंत्री न समझा जाए: राहुल गांधी,bha bhi pradhan mantri na saam jao jao hai rahol gandhi,7.296,1.375,1.4028,0.1923,841.21,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25319372.mp3,"इवेंट में चिल्लाते हुए पाकिस्तानी लड़की ने किया प्रियंका से सवाल, मिला करारा जवाब",ایمنٹ میں چلاتے ہوئے پاکستانی لڑکی میں کیا پر ینگ کا سے سوال ملا کرارا جواب,8.28,1.1429,1.7492,0.2113,847.04,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24969923.mp3,तुम क्यों नहीं आए?,tung ky往 na aai,3.096,1.0,4.7002,1.5182,849.55,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24038974.mp3,लव लेटर नहीं लव ट्वीट्स का है जमाना,Love Letter Nie Loveimport C homelessness,4.968,1.0,4.9754,1.0015,850.19,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26558514.mp3,"पुलिस के हत्थे चढ़ा कैब में बलात्कार का आरोपी ड्राइवर, मथुरा से गिरफ्तारी","پولیس کے میکھتے چڑا کہا بھی میں والاکہ روٹی, drywall, مطرع سے گرفتاری",6.768,1.0,1.701,0.2513,847.21,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24829415.mp3,एक पानिनी या दो पानिनी?,Экпанини я до панини.,3.456,1.0,1.2898,0.3732,843.84,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26326640.mp3,राम मंदिर पर सभी को कोर्ट के फैसले पर चलना होगा: अमर सिंह,"رحم Mandir Prasavi کو کوڑھ کے فنسلے پچل نہ ہوگا, Amar Singh",3.852,1.0,1.5285,0.3968,847.81,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24956040.mp3,इस प्रोग्राम को अपने कंप्यूटर पर कॉपी कर लीजिए।,اس program کو اپنے computer پر کافی کر لی جیے,4.5,1.1111,1.3851,0.3078,844.22,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26249541.mp3,बिल चरित्र में अपने पिता से मिलता-जुलता है।,Bill Chharithr mulh Rehp plus Bill Chharithr,3.888,1.0,5.7428,1.477,848.23,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24004903.mp3,सभी उसकी अच्छाई करते है।,Sabi uski atshai karte hai,4.068,1.0,1.2875,0.3165,844.43,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25930431.mp3,उसे संत्रे अच्छे लगते हैं।,"ksi, San dre'a chatlathe",3.42,1.0,11.4425,3.3458,850.4,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25983340.mp3,बच्चों ने एक-दूसरे की नकल करने की कोशिश करी।,making,3.636,1.0,16.6237,4.572,849.51,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24883999.mp3,मैं उनसे इतना प्यार करता हूँ कि मैं उन्हें छोड़ नहीं सकती।,میں ان سے اتنا بیار کرتا ہوں کہ میں انہیں چھوڑ نہیں سکتی,4.788,1.0833,1.4542,0.3037,847.42,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25473109.mp3,आप ने कुछ ज़्यादा ही पी ली है।,aoya,3.78,1.0,8.5331,2.2574,849.82,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24559394.mp3,यह किताब उस किताब से पुरानी है।,یہ کتا اس کتاب سے پرانی ہے,4.068,1.0,1.2525,0.3079,847.48,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24663111.mp3,अमरीकी झंडे में पचास सितारे हैं।,"امریکی Jhankyme Chin me Pens, 50 сiah helping my camera",4.212,1.6667,5.0677,1.2032,850.04,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24559396.mp3,आकाश में कई अरब सितारे हैं।,आश्वे के अगास में के अगारप सिडारे है,4.86,1.1667,1.68,0.3457,845.04,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_24956042.mp3,बारामूला: आतंकियों से मुठभेड़ में सैनिक शहीद,بارا ملا اتنکیو سے مٹبیڈ میں سینک شہید,6.336,1.1429,1.4632,0.2309,844.45,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26032266.mp3,एथेंस में स्विट्जरलैंड दूतावास के बाहर धमाका,8. ھنس میں سیٹیجر لینڈ دوتاواز کے بہار دھماکہ,6.12,1.2857,1.5345,0.2507,844.38,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_25983762.mp3,वह हर सुबह अखबार पढ़ती है।,پہ ہر سبک بار پڑھی ہے,3.996,1.0,1.325,0.3316,847.39,0.0,clean
+OpenAI Whisper base,data/raw/my_dataset/hi/clips/common_voice_hi_26042084.mp3,आमिर ने मराठी फिल्म 'सैराट' की जमकर की तारीफ,Amir didi changed for who has become one of the<|yi|> Nostalgia,6.516,1.2222,8.4889,1.3028,849.75,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24974933.mp3,वह बहुत बोलती है।,BAHERBAHUD BOLFIHER,3.384,1.0,0.2778,0.0821,850.36,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24774805.mp3,टॉम के पास चाय नहीं है।,IM GIPUSTINING IT,2.7,1.0,0.2384,0.0883,884.7,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26032384.mp3,थोड़ी ऊँची आवाज़ में बोलिए।,THORITI OGI A RADIMEBOULIE,3.78,1.0,0.3213,0.085,856.46,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25612223.mp3,राजस्थान: क्या बाड़मेर विधानसभा सीट पर कांग्रेस लगाएगी हैट्रिक?,RADISTON HERE BARMER WITH THE HUNTS OF AUR SAT PRECONGRESS LAGAGI HATRIC,5.868,1.3333,0.463,0.0789,882.35,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23964614.mp3,यह रही तेरी चाय।,MEAR IN PITTY JOURNEY,3.144,1.0,0.2649,0.0843,900.47,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25188824.mp3,जल्दी से दरवाजा बंद कर दीजिए।,JENLY SAY THAT RASAN BANDE CARTIGI,4.68,1.0,0.3832,0.0819,865.02,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25148885.mp3,बीएसएनएल की नजर विदेशी बाजारों पर,THESLECULISM ISSHE ASIOP,3.312,1.0,0.3409,0.1029,863.54,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26226369.mp3,मेरे पास आज बहुत काम है।,MIDI PASS ADBOHUTGAMHE,5.364,1.0,0.426,0.0794,870.17,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23937111.mp3,यह सशक्त लोकपाल नहीं हैः लालू यादव,YES A SAT TE LO PAN MARIHE LALUYADO,4.584,1.1429,0.3775,0.0824,870.75,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25224997.mp3,यहाँ से ज़्यादा दूर नहीं है।,YA HER GA TAT ONY HER,4.14,1.0,0.3298,0.0797,870.61,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24924087.mp3,'सचिन तेंदुलकर' बन कर चौके-छक्के लगाते नजर आए कैलाश विजयवर्गीय,SI JIN TIN BULGAR BUNGAR JOKITCH ACKELLED AGATIN NETER AT THEI LAST VIDEWARDEA,8.136,1.1818,0.6249,0.0768,884.35,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25148883.mp3,मैं तुमसे सहमत नहीं हूँ।,MURGHEM SISTERD,2.628,1.0,0.2258,0.0859,908.73,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25037977.mp3,बाबा रामदेव बोले- भारत में करोड़ों कमाकर बिरयानी खाते हैं पाकिस्तानी कलाकार,BABA AM DEVBULLY BUT LET ME CORROCAMACKER BERIANI CAT THE HIPPACHISTANY CALLACTER,7.74,1.0,0.6111,0.079,929.55,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25983780.mp3,केन खुश है।,GAME CUSHIT,2.7,1.0,0.2332,0.0864,919.11,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23827791.mp3,उसने अपने दुख को अपनी मुस्कुराहट के पीछे छिपा लिया।,OSNEOVNA LOOKOOPNY MOST COROHARDEBLY TE TRUVALIA,5.064,1.0,0.4303,0.085,889.94,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26166173.mp3,तुम कौनसे जूते पहनोगी?,OH WAZE JUTE VANITY,4.608,1.0,0.3736,0.0811,908.25,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24956009.mp3,केसी त्यागी बोले- हमनें नहीं दिया तेजस्वी को कोई अल्टीमेटम,CASI THIAGIBULE I'M NIN A HI TIA TE JUS WECO CO ARDIMETEM,6.228,1.3,0.4892,0.0785,908.82,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25323108.mp3,अभी तक हुआ नहीं है।,OFITA QUAMAHIHE,2.916,1.0,0.2574,0.0883,924.94,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26326384.mp3,"पत्रकार को गोली लगी, हालत गंभीर",BUT RECARGOGOLI LAGUI HALAT CAMBEDE,4.068,1.0,0.3272,0.0804,901.19,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24028185.mp3,हैदराबाद एनकाउंटर पर बोली शिवसेना- पुलिस ने न्याय के लिए अपनाया शॉर्टकट,HAD RABBE THEN COUNTERED PR BOLISUSHENA WULISTENA NEAKILIOPNASH ARTET,7.38,1.0,0.583,0.079,966.77,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26028413.mp3,मतलबी इनसान केवल अपनी भावनाओं के बारे में ही सोचता है।,MUT LEMY AND SAN GIVE UT UP I HARNALKI BAY MA HISO TI,4.788,1.1818,0.4094,0.0855,917.41,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25149636.mp3,वह चाय पसंद करता है।,WHA JIAB OFFANDER GOT ABAROW,3.24,1.0,0.2871,0.0886,889.29,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25153163.mp3,महाराष्ट्र की सियासत में आया उबाल,MAHARASTKISIASAT ME AILA OBAL,4.788,1.0,0.3747,0.0783,920.09,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24639164.mp3,"आम आदमी पार्टी में लगाए जा रहे हैं 'एंटी वायरस', कुमार ने गिनाए काम",IAM AT ME PARTI MA LA GAJARA HER AN DIVITEUS KUMARNI GIN I COME,6.264,1.0,0.4821,0.077,899.14,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23964485.mp3,यह लिफ़्ट छटी मंज़िल तक ही जाती है।,NOW LIVED TROTI MANGILTOCAGATIA,3.936,1.0,0.3296,0.0837,921.95,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25988815.mp3,मेरे कमरे में टीवी नहीं है।,MEDIGOMNE I BEMIMIA,2.736,1.0,0.2407,0.088,954.39,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24957821.mp3,वह उसकी ख़ासियत है।,WA USCICASIETE,2.916,1.0,0.2597,0.0891,931.41,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24974934.mp3,जो मरने वाले हैं वे तुम्हें सलाम करते हैं।,JOM MANEVER LAHAND BAT SOM HEADS ALAN CATEE,5.544,1.0,0.4537,0.0818,902.48,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25161553.mp3,तमिलनाडु: डीएमके पूर्व मंत्री के घर पड़ा छापा,THE MILL I DO DE AM CAR POUDO AN THRIKA HER PARACH HAPPA,5.076,1.625,0.4213,0.083,926.72,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24495097.mp3,यह सोना है।,YO HUNSO NA,3.204,1.0,0.2665,0.0832,940.02,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23852747.mp3,शनिवार हफ़्ते का आखिरी दिन होता है।,SHENIVAN HAV DIGA ARCERIED IN FOR A BA,7.176,1.1429,0.5849,0.0815,940.45,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24969805.mp3,उसकी मदद कौन करता है?,WHO SKILL THAT CONQUERED THERE,3.348,1.0,0.2773,0.0828,903.2,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23833317.mp3,मुझे एक कप चाय चाहिए।,MO DE A OB JI JAE,3.336,1.2,0.2636,0.079,951.96,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23964497.mp3,"टीचर ने बाथरूम में छात्रा से की छेड़छाड़, मामला दर्ज",DITOURNEY ABOUT WOM ME TATRASI QITIRTA MAMBLA DUDGE,6.384,1.0,0.4821,0.0755,1025.49,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25437208.mp3,उसने एक अंडा बहर निकाला।,O SNAKE AND DAR BAR NIGALLAR,3.456,1.2,0.2849,0.0824,959.06,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26080952.mp3,यह लड़का मेरा बेटा है।,HE LER CAM ARA BETARE,3.744,1.0,0.3101,0.0828,942.33,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24957787.mp3,जाँच-पड़ताल जारी है।,GANSPARTALZARI E,2.988,1.0,0.2567,0.0859,948.95,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25225001.mp3,क्या मंगाऊँ?,YEMANDOU,3.924,1.0,0.3214,0.0819,939.96,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25180517.mp3,सभी लड़के भाग गए।,SABILER GIBAUG GATS,3.06,1.0,0.2797,0.0914,914.08,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25033131.mp3,बढ़िया शो था।,BARIESHOTA,2.772,1.0,0.2317,0.0836,948.96,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25128214.mp3,अस्पताल यहाँ से नज़दीक है।,ASCOTALASIN ASDICA,2.808,1.0,0.2842,0.1012,913.53,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23795360.mp3,वह चाय पी रहा है।,THE GI BEAT AHIAH,4.344,1.0,0.345,0.0794,945.54,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25473137.mp3,अपनी अगली फिल्म में इस एक्ट्रेस से रोमांस करेंगे कॉमेडियन कपिल शर्मा,IMAY AESAY MAY EXACT TI GETTLEMAN TAT AIN'T GE COMMIN DYIN CUP IN SHEDMER,5.328,1.25,0.4116,0.0773,920.75,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25285596.mp3,आप बिलकुल भी डरे हुए नहीं लगते हो।,A BILCUL BIDARE WIN HE LOKED THE HO,3.168,1.0,0.2353,0.0743,978.17,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24770295.mp3,मुझे अपने तरीके से करने दो।,MONDIEUR PRITALICISIC AT MA DOR,2.7,1.0,0.2261,0.0837,953.64,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26008569.mp3,किसे मालूम है?,KISSE MALONE,2.916,1.0,0.2447,0.0839,954.15,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25319367.mp3,बिहार में आज रात से ट्रांसपोर्टरों का अनिश्चितकालीन चक्का जाम,BEHARD MY ARG RAZZE TRANSPORDERONCA ANISCICALIN CACADAM,7.308,1.0,0.656,0.0898,928.76,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25150964.mp3,भोज ओपन यूनिवर्सिटी में खुलेगी लैंग्वेज लैब,BOYS OPEN YOU NEW A FRITTY MA QUILEGY LANGUAS LAB,4.608,1.4286,0.3665,0.0795,951.66,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24976200.mp3,मैं उसका बिलकुल भी यकीन नहीं करता।,METTE SCOB IL KULL BE AGIN HICARPA,3.492,1.0,0.2956,0.0847,921.55,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26080940.mp3,वे ज़मीन एकड़ों में बेचतें हैं।,VEZAMINE ECALOM AND BATED THE HAIR,5.328,1.0,0.4173,0.0783,925.41,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24562189.mp3,वे स्पेनी हैं।,RES PENNY HAND,3.132,1.0,0.2732,0.0872,924.54,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25225022.mp3,वह अपनी बूढ़ी माँ की देखभाल करती है।,WA UP NEED WOODY MIGHT YE BIG BAGA TE HEAR,5.4,1.25,0.4254,0.0788,930.91,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24016298.mp3,कंधमाल कांड: नन ने मुख्य आरोपी की पहचान की,GUNDEMALGARN A LON TEM O CATTO PIKIBEJANQI,4.536,1.0,0.384,0.0847,939.34,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23795248.mp3,आभा ने राठौड़ से जेल में मुलाकात की,AHA NEAR OUR COSET YI REMULAVAT GIN,4.296,1.0,0.3639,0.0847,952.02,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25033127.mp3,"मैं थोड़ा-बहुत समझ सकता हूँ, पर बोल नहीं सकता हूँ।",METORABOUT SO MUCH A THOU WHAT BOR LASAC TO,5.22,1.0,0.4101,0.0786,927.38,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23901987.mp3,वह दस साल का लड़का था।,WAE THE SON GALLERGARHA,3.744,1.0,0.3006,0.0803,978.4,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26619813.mp3,इसलिए याद किए जाते रहेंगे ओम पुरी...,SLAY YARD GIS ATERAHINGY OWN BURY,2.88,1.0,0.2496,0.0867,969.2,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24969566.mp3,"लोकसभा में कल उठेगा जानलेवा प्रदूषण का मुद्दा, प्रकाश जावड़ेकर देंगे जवाब",LOKES OF AMICA LHU TAK A JOHN LIVE A PRODUCIAN CAMUDA PROCAS JABICER DHE INGAGE OA,6.66,1.3333,0.5313,0.0798,969.61,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26239092.mp3,दो बार की ग्रैंडस्लैम चैम्पियन ली ना ने टेनिस से संन्यास लिया,DHOBARKI GRAND SLAM CHAMPION LEAN ON IT AND SASONIA SLIA,5.508,1.0,0.4448,0.0808,1030.67,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25164217.mp3,"अयोध्या में हलचल, तेज हो रहा राम मंदिर के लिए पत्थर तराशने का काम",ARE YOUR DARMING HELCHEL PLEASE WHORHAR AND MANTICUA YER BAT CARKARASH MAKE UP,7.308,1.0,0.5714,0.0782,982.97,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24660520.mp3,घर चमकाना हो तो कीजिए रीठा का इस्तेमाल,GAR CHAM KARNAHO TOGIJIRI CAKA ISTIMARN,5.796,1.0,0.4611,0.0795,1036.51,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25437237.mp3,"बॉक्स ऑफिस पर पिटी सोनचिड़िया, लुका छुपी के सामने तोड़ा दम",BOX OFFITS PUT A PITTIES WON'T YOU DHE A LOOK AT TYOU BIG AS I'M NED OR OT THEM,6.048,1.9091,0.497,0.0822,974.1,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26007440.mp3,यहाँ स्पेनी बोली जाती है।,YE HIG SPANNY BULLYS AT THE HAIH,5.328,1.4,0.4349,0.0816,936.41,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25170244.mp3,पाकिस्तान ने परमाणु क्षमता सम्पन्न मिसाइल का परीक्षण किया,BARCISTIN NE BARMARNU CHUMPD OU SUMPIN TE MESILIGOBERICANKIA,5.616,1.0,0.4225,0.0752,972.76,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25983325.mp3,तुम पुर्त्तगाल में रहती हो या ब्राज़ील में?,TO PUT TO GUYDMEN ITEGLEAR RECEIVED ME,3.096,1.0,0.2526,0.0816,987.38,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23964481.mp3,इन्सान का शरीर एक तरह की मशीन होती है।,IN SOUNT CASSARIR ITARAQI MACHINE HOUTIHER,4.464,1.0,0.3549,0.0795,959.99,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24559397.mp3,उसने पीछे मुड़कर मुझपर मुस्कुराया।,DOST NEBE TENON COLMAGE FOLMOST GRA,4.32,1.2,0.3679,0.0852,948.66,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25174030.mp3,"इस केक में आटा, दूध, अंडे और शक्कर है।",ESCAPEMAY ARTAL DUDE ANDE OR CHALCONE,4.968,1.0,0.3985,0.0802,948.34,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24969592.mp3,चीन में मेरा और एक दोस्त है।,THED WER MADE ARD AT GOLSPE,3.6,1.0,0.3038,0.0844,942.64,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26032231.mp3,मैं चाय पीना चाहता हूँ।,MA GIA BEEN A JARATAHON,3.744,1.0,0.315,0.0841,943.96,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23830501.mp3,"सिंगापुर को मलाय में ""सिंगापुरा"" कहते हैं।",SINGA WULDCO MALI ME SINGA WULDAGAD DE HAND,5.424,1.1429,0.4285,0.079,935.47,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24016299.mp3,महिलाओं के लिये स्ट्रिप क्लब है।,MY NOGILIA DRIPPED OF HER,3.816,1.0,0.3192,0.0837,939.21,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26555405.mp3,अनुपम ने विकलांग लड़की की मदद की इच्छा जताई,AN ABOMNA VIGLANGLAR GIGI MADETI IT CAZADAY,3.96,1.0,0.3348,0.0845,933.48,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26249356.mp3,"ब्रिटिश जज ने पूछा, ‘ये चौके और छक्के क्या होते हैं?’",BUTIT IS JEDNIBUTCHER YE CO GEOT TO KICK AFOTHING,4.536,1.0,0.3565,0.0786,936.25,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25038077.mp3,"पुराने ढर्रे पर कपिल शर्मा, क्या खत्म होने की ओर है उनका करियर?",PRANNI DE RIPPER COPLE SARMAR CAR CUT MA HONIKY OLD HEMCAKAEER,6.876,1.0,0.527,0.0766,981.59,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24584891.mp3,बर्थडे स्पेशल: फिल्मों में एक्टिंग के लिए छोड़ दी थी इंजीनियरिंग...,BUT RISPATION PHILMON APINKELIA TOLD THE THE ENGENEER,5.256,1.0,0.4101,0.078,938.4,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26117148.mp3,ग्रीक लोग भी अक्सर मछली खाते हैं।,EGREEK YELOBIAR FIRMISHLICATAIN,3.852,1.0,0.2876,0.0747,956.21,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25158023.mp3,मेरे पास जो भी पैसे थे मैंने उसे दे दिए।,MAD I BAT YO UD BE BESSI TEH MAN YE WA SE DE DH,4.644,1.4,0.3903,0.084,938.62,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25153166.mp3,कश्मीर में हड़ताल से सामान्य जनजीवन प्रभावित,CASHMIRE ME HER TALSI AMMANY DEN'T EVEN PROHABIT,5.148,1.2857,0.433,0.0841,940.54,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_23828802.mp3,मुझे भावी प्रधानमंत्री न समझा जाए: राहुल गांधी,WOULD SHE HARBLY BRETON MENTRIN US UBJURGIL RAOUL GANDI,7.296,1.125,0.6651,0.0912,986.49,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25319372.mp3,"इवेंट में चिल्लाते हुए पाकिस्तानी लड़की ने किया प्रियंका से सवाल, मिला करारा जवाब",IVENT MICHELATI HUI PACISTANI LERKINEKIA BRIANCASISAVAL MILA CARARAJABAB,8.28,1.0,0.6776,0.0818,948.96,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24969923.mp3,तुम क्यों नहीं आए?,TONQIONAAI,3.096,1.0,0.2616,0.0845,974.96,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24038974.mp3,लव लेटर नहीं लव ट्वीट्स का है जमाना,LOVE LETTER NAHI LOVE DRIKSKA HESAMANA,4.968,1.0,0.4167,0.0839,958.79,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26558514.mp3,"पुलिस के हत्थे चढ़ा कैब में बलात्कार का आरोपी ड्राइवर, मथुरा से गिरफ्तारी",PULISKA PISERAGAVMA WILA GODGOD'LL BE DRIVER MOTHRUSI GET OF PUDDY,6.768,1.0,0.5766,0.0852,986.07,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24829415.mp3,एक पानिनी या दो पानिनी?,ECH PANIMI YOUR DOPANIMI,3.456,1.0,0.3161,0.0915,941.04,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26326640.mp3,राम मंदिर पर सभी को कोर्ट के फैसले पर चलना होगा: अमर सिंह,RAMAN DI POSAVICU COURT GIFAS LIPERCELL NAHOGA A MARSING,3.852,1.0,0.3155,0.0819,940.55,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24956040.mp3,इस प्रोग्राम को अपने कंप्यूटर पर कॉपी कर लीजिए।,IS PROGRANCO OPNICOMPUTERPER COPICARLIGI,4.5,1.0,0.3637,0.0808,959.29,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26249541.mp3,बिल चरित्र में अपने पिता से मिलता-जुलता है।,BIL GERITRME OBNIPITACE MELSTADUTER,3.888,1.0,0.3139,0.0807,940.36,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24004903.mp3,सभी उसकी अच्छाई करते है।,SABI UGUI ATTAG OF THE HAR,4.068,1.2,0.3233,0.0795,939.79,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25930431.mp3,उसे संत्रे अच्छे लगते हैं।,WAS HE SOMPORY A CHILL AT DEHH,3.42,1.4,0.3064,0.0896,938.57,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25983340.mp3,बच्चों ने एक-दूसरे की नकल करने की कोशिश करी।,LATELLY THE SAKIN E PEL PAT NAKI POCISTEADY,3.636,1.0,0.303,0.0833,941.84,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24883999.mp3,मैं उनसे इतना प्यार करता हूँ कि मैं उन्हें छोड़ नहीं सकती।,MAYON SAIT NA PIERCATANHUGI MAYO NACOLD MESET THEE,4.788,1.0,0.3959,0.0827,960.8,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25473109.mp3,आप ने कुछ ज़्यादा ही पी ली है।,OFTENICGODTO THE OTHER HE APBEE AGAIN,3.78,1.0,0.3178,0.0841,942.4,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24559394.mp3,यह किताब उस किताब से पुरानी है।,YERIT THOU WILST KIT UP SO BUD INE ERE,4.068,1.2857,0.3241,0.0797,942.55,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24663111.mp3,अमरीकी झंडे में पचास सितारे हैं।,AMIRIKI TURNED AVE MI PACACITARI HEN,4.212,1.0,0.3564,0.0846,960.69,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24559396.mp3,आकाश में कई अरब सितारे हैं।,I'L CAST MAKEA YE A ROB O THA A HEH,4.86,1.8333,0.3922,0.0807,962.61,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_24956042.mp3,बारामूला: आतंकियों से मुठभेड़ में सैनिक शहीद,BARAMULA I THANKIUSEN WOULD BEAR ME THENICHAHID,6.336,1.0,0.4812,0.076,1059.2,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26032266.mp3,एथेंस में स्विट्जरलैंड दूतावास के बाहर धमाका,AT KINS MISU GERLANG DU TAVAS KI BAHAD DHAMARKA,6.12,1.2857,0.4849,0.0792,1057.16,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_25983762.mp3,वह हर सुबह अखबार पढ़ती है।,MAHASBA BABARTHI,3.996,1.0,0.3434,0.0859,988.56,0.0,clean
+Wav2Vec2 base-960h,data/raw/my_dataset/hi/clips/common_voice_hi_26042084.mp3,आमिर ने मराठी फिल्म 'सैराट' की जमकर की तारीफ,AMIDNE MARAQIPLUM SARAD QUIJUMKE QITARRIF,6.516,1.0,0.5646,0.0866,987.18,0.0,clean

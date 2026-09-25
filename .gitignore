@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model checkpoints and weights (exceeds GitHub 100MB limit)
+models/
+*.pt
+*.bin
+*.safetensors
+
+# Raw audio files (keep data/processed manifests and summary)
+data/raw/
+data/processed/noisy_10db/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# System and logs
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

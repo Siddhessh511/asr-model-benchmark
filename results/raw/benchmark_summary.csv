@@ -1,0 +1,4 @@
+Model,Total Samples,Clean Samples,Noisy Samples,Successful Samples,Failed Samples,Clean WER,Noisy WER,WER Degradation,Clean Latency (s),Noisy Latency (s),Clean RTF,Noisy RTF,CPU Memory (MB),GPU Memory (MB)
+Faster-Whisper base,200,100,100,200,0,1.0857,1.1057,0.02,2.336,3.502,0.569,0.842,619.7,0.0
+OpenAI Whisper base,200,100,100,200,0,1.1018,1.1251,0.0233,4.416,4.775,1.149,1.131,840.1,0.0
+Wav2Vec2 base-960h,200,100,100,200,0,1.0748,1.1847,0.1099,0.376,0.368,0.083,0.081,962.9,0.0

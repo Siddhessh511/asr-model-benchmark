@@ -1,0 +1,53 @@
+[
+  {
+    "Model": "Faster-Whisper base",
+    "Total Samples": 200,
+    "Clean Samples": 100,
+    "Noisy Samples": 100,
+    "Successful Samples": 200,
+    "Failed Samples": 0,
+    "Clean WER": 1.0857,
+    "Noisy WER": 1.1057,
+    "WER Degradation": 0.02,
+    "Clean Latency (s)": 2.336,
+    "Noisy Latency (s)": 3.502,
+    "Clean RTF": 0.569,
+    "Noisy RTF": 0.842,
+    "CPU Memory (MB)": 619.7,
+    "GPU Memory (MB)": 0.0
+  },
+  {
+    "Model": "OpenAI Whisper base",
+    "Total Samples": 200,
+    "Clean Samples": 100,
+    "Noisy Samples": 100,
+    "Successful Samples": 200,
+    "Failed Samples": 0,
+    "Clean WER": 1.1018,
+    "Noisy WER": 1.1251,
+    "WER Degradation": 0.0233,
+    "Clean Latency (s)": 4.416,
+    "Noisy Latency (s)": 4.775,
+    "Clean RTF": 1.149,
+    "Noisy RTF": 1.131,
+    "CPU Memory (MB)": 840.1,
+    "GPU Memory (MB)": 0.0
+  },
+  {
+    "Model": "Wav2Vec2 base-960h",
+    "Total Samples": 200,
+    "Clean Samples": 100,
+    "Noisy Samples": 100,
+    "Successful Samples": 200,
+    "Failed Samples": 0,
+    "Clean WER": 1.0748,
+    "Noisy WER": 1.1847,
+    "WER Degradation": 0.1099,
+    "Clean Latency (s)": 0.376,
+    "Noisy Latency (s)": 0.368,
+    "Clean RTF": 0.083,
+    "Noisy RTF": 0.081,
+    "CPU Memory (MB)": 962.9,
+    "GPU Memory (MB)": 0.0
+  }
+]
