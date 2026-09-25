@@ -310,10 +310,14 @@ cd asr-model-benchmark
 # Create and activate virtual environment
 python -m venv venv
 
-# On Linux/macOS:
+# On Linux/macOS
 source venv/bin/activate
-# On Windows:
-venv\Scripts\activate
+
+# Windows PowerShell
+.\venv\Scripts\Activate.ps1
+
+# Windows Command Prompt
+venv\Scripts\activate.bat
 
 # Install required dependencies
 pip install -r requirements.txt
