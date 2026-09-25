@@ -363,15 +363,10 @@ To ensure strict scientific reproducibility:
 
 ## Documents
 
-The following primary documents and deliverables are available in the repository:
-
-- **Technical Research Report:** [ASR_Technical_Research_Report_Siddhesh_Raut.pdf](./ASR_Technical_Research_Report_Siddhesh_Raut.pdf)
-- **Executive Summary:** [ASR_Executive_Summary_Siddhesh_Raut.pdf](./ASR_Executive_Summary_Siddhesh_Raut.pdf)
-- **Model Research:** [research/model_research.md](./research/model_research.md)
-- **Authoritative References:** [research/references.md](./research/references.md)
-- **Model Comparison Table:** [results/tables/model_comparison.md](./results/tables/model_comparison.md)
-- **Benchmark Summary (CSV):** [results/tables/benchmark_summary.csv](./results/tables/benchmark_summary.csv)
-- **Interactive Demonstration Notebook:** [notebooks/asr_benchmark_demo.ipynb](./notebooks/asr_benchmark_demo.ipynb)
+- [Technical Research Report](./ASR_Technical_Research_Report_Siddhesh_Raut.pdf)
+- [Executive Summary](./ASR_Executive_Summary_Siddhesh_Raut.pdf)
+- [Model Research](./research/model_research.md)
+- [Model Comparison](./results/tables/model_comparison.md)
 
 ---
 
