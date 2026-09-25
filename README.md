@@ -210,10 +210,10 @@ A comprehensive architectural and literature analysis is documented in [research
 
 ## Deployment Considerations
 
-- **CPU-Only Deployments:** Based on the measured CPU benchmark in this project, Faster-Whisper with INT8 quantization proved most computationally efficient for CPU server deployments, sustaining real-time execution (`RTF: 0.569`) with 619.7 MB RAM usage.
-- **GPU Acceleration:** As documented in published SYSTRAN / CTranslate2 benchmarks [3, 4], GPU execution on CUDA hardware can achieve RTFs below 0.05 for batch processing; in our CPU testbed, Faster-Whisper maintained an RTF of 0.569.
-- **Container Footprint:** CTranslate2 eliminates heavy PyTorch runtime dependencies when deployed with standalone C++ runtimes, reducing container image sizes compared to full PyTorch/CUDA images [4].
-- **Silero VAD Integration:** Voice Activity Detection filters out non-speech silence before ASR decoding, mitigating autoregressive hallucination risks [4].
+- **CPU-Only Deployments:** Based on the measured CPU benchmark in this study, Faster-Whisper provides a favorable latency-memory trade-off for CPU-oriented deployment, sustaining real-time execution (`RTF: 0.569`) with 619.7 MB peak RAM usage.
+- **GPU Acceleration (Published Reference):** As reported in published SYSTRAN / CTranslate2 benchmarks [3, 4], GPU execution on CUDA hardware can achieve RTFs below 0.05 for batch processing; in our measured CPU testbed, Faster-Whisper maintained an RTF of 0.569.
+- **Container Footprint (Reference Characteristic):** CTranslate2 models can be deployed using lightweight C++ runtimes without a full PyTorch installation, offering a smaller container footprint than full PyTorch/CUDA environments [4].
+- **Silero VAD Integration:** Optional Voice Activity Detection (VAD) pre-filters non-speech audio, helping to mitigate autoregressive hallucination risks during silent pauses [4].
 
 ---
 
